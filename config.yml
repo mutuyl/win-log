@@ -1,0 +1,9 @@
+# 日志服务器存放日志目录
+app: 121/sysevt
+# 日志服务器地址
+# sendurl: http://log.zjeid.com:11110/dolog
+sendurl: http://192.168.0.3:11110/winlog
+# 日志查询周期(秒/s)
+duration: 60
+# 过滤 windows 事件 ID
+winevtids:
